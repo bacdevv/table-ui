@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Table UI</title>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Font Awesome CDNs -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- Stylesheet CSS -->
+		<link rel="stylesheet" href="./assets/css/main.css" />
+	</head>
+	<body>
+		<h1>Bookings</h1>
+
+		<div class="container">
+			<table class="table">
+				<!-- Table Head -->
+				<thead>
+					<!-- Table Row / Head -->
+					<tr>
+						<th>#</th>
+						<th>Customer</th>
+						<th>Check-In</th>
+						<th>Checkout</th>
+						<th>Booked</th>
+						<th>Total Payout</th>
+						<th>Status</th>
+					</tr>
+				</thead>
+
+				<!-- Table Body -->
+				<tbody>
+					<tr>
+						<!-- Table Data Row  1 -->
+						<td class="table__hash">#3949</td>
+						<td>
+							<img class="table__avatar" src="./assets/img/avatar-01.jpg" alt="" />
+							<section class="table__content">
+								<strong class="table__name">Albert Flores</strong>
+								<span class="table__desc">1 guest</span>
+							</section>
+						</td>
+						<td>
+							<span class="table__info">Sep 12, 2 PM</span>
+						</td>
+						<td>
+							<span class="table__info">Sep 14, 2 PM</span>
+						</td>
+						<td>
+							<span class="table__info">Aug 4, 2024</span>
+							<span class="table__desc">12:24 PM</span>
+						</td>
+						<td>
+							<span class="table__info">$115.50</span>
+						</td>
+						<td>
+							<span class="table__tag tag tag--pending">Pending</span>
+							<i class="fa-solid fa-ellipsis-vertical"></i>
+						</td>
+					</tr>
+
+					<tr>
+						<!-- Table Data Row  2 -->
+						<td class="table__hash">#3947</td>
+						<td>
+							<img class="table__avatar" src="./assets/img/avatar-02.jpg" alt="" />
+							<section class="table__content">
+								<strong class="table__name">Cameron Williamson</strong>
+								<span class="table__desc">2 guests</span>
+							</section>
+						</td>
+						<td>
+							<span class="table__info">Sep 15, 4 PM</span>
+						</td>
+						<td>
+							<span class="table__info">Sep 16, 12 PM</span>
+						</td>
+						<td>
+							<span class="table__info">Sep 2, 2024</span>
+							<span class="table__desc">3:35 PM</span>
+						</td>
+						<td>
+							<span class="table__info">$80.50</span>
+						</td>
+						<td>
+							<span class="table__tag tag tag--upcoming">Upcoming</span>
+							<i class="fa-solid fa-ellipsis-vertical"></i>
+						</td>
+					</tr>
+
+					<tr>
+						<!-- Table Data Row  3 -->
+						<td class="table__hash">#3946</td>
+						<td>
+							<img class="table__avatar" src="./assets/img/avatar-03.jpg" alt="" />
+							<section class="table__content">
+								<strong class="table__name">Annette Black</strong>
+								<span class="table__desc">2 guests</span>
+							</section>
+						</td>
+						<td>
+							<span class="table__info">Sep 20, 2 PM</span>
+						</td>
+						<td>
+							<span class="table__info">Sep 24, 12 PM</span>
+						</td>
+						<td>
+							<span class="table__info">Sep 19, 2024</span>
+							<span class="table__desc">10:14 PM</span>
+						</td>
+						<td>
+							<span class="table__info">$170.70</span>
+						</td>
+						<td>
+							<span class="table__tag tag tag--pending">Pending</span>
+							<i class="fa-solid fa-ellipsis-vertical"></i>
+						</td>
+					</tr>
+
+					<tr>
+						<!-- Table Data Row  4 -->
+						<td class="table__hash">#3943</td>
+						<td>
+							<img class="table__avatar" src="./assets/img/avatar-04.jpg" alt="" />
+							<section class="table__content">
+								<strong class="table__name">Darrell Steward</strong>
+								<span class="table__desc">1 guest</span>
+							</section>
+						</td>
+						<td>
+							<span class="table__info">Sep 26, 2 PM</span>
+						</td>
+						<td>
+							<span class="table__info">Sep 28, 12 PM</span>
+						</td>
+						<td>
+							<span class="table__info">Sep 10, 2024</span>
+							<span class="table__desc">10:55 PM</span>
+						</td>
+						<td>
+							<span class="table__info">$115.50</span>
+						</td>
+						<td>
+							<span class="table__tag tag tag--active">Active</span>
+							<i class="fa-solid fa-ellipsis-vertical"></i>
+						</td>
+					</tr>
+
+					<tr>
+						<!-- Table Data Row  5 -->
+						<td class="table__hash">#3942</td>
+						<td>
+							<img class="table__avatar" src="./assets/img/avatar-05.jpg" alt="" />
+							<section class="table__content">
+								<strong class="table__name">Jerome Bell</strong>
+								<span class="table__desc">2 guests</span>
+							</section>
+						</td>
+						<td>
+							<span class="table__info">Sep 28, 5 PM</span>
+						</td>
+						<td>
+							<span class="table__info">Sep 30, 7 PM</span>
+						</td>
+						<td>
+							<span class="table__info">Sep 20, 2024</span>
+							<span class="table__desc">1:45 PM</span>
+						</td>
+						<td>
+							<span class="table__info">$130.40</span>
+						</td>
+						<td>
+							<span class="table__tag tag tag--upcoming">Upcoming</span>
+							<i class="fa-solid fa-ellipsis-vertical"></i>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>

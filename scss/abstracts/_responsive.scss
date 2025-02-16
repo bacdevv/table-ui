@@ -1,0 +1,17 @@
+@media (max-width: 1199.98px) {
+	th,
+	td {
+		min-width: 15rem !important;
+	}
+
+	th:nth-child(2),
+	td:nth-child(2) {
+		min-width: 25rem !important;
+	}
+}
+
+@media (max-width: 767.98px) {
+	body {
+		padding: 10rem 2rem;
+	}
+}
